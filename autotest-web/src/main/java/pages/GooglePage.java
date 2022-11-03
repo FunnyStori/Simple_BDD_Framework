@@ -13,5 +13,5 @@ public class GooglePage extends WebPage {
     private SelenideElement searchField = $x("//input[@name='q']");
 
     @Name("кнопка поиска")                     
-    private SelenideElement searchButton = $x(".//*[@data-iml='1667509934266']/..//*[@name='btnK']");
+    private SelenideElement searchButton = $x(".//*[@jsname='VlcLAe']/..//*[@name='btnK']");
 }
